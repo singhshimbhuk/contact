@@ -29,10 +29,7 @@ img
     font-weight: 600;
 
 }
-.inputbox
-{
 
-}
 .inputbox input
 {   
     width: 18rem;
@@ -360,47 +357,47 @@ font-size: 2.1rem;
     .inputbox input[placeholder=Name]
     {
         position: absolute;
-        top: 42%;
-        left: 1%;
-        width: 10rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        padding-left: 3rem;
+    top: 23%;
+    left: 1%;
+    width: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 3rem;
     }
     .inputbox input[placeholder=Email]
     {
         position: absolute;
-        top: 52%;
-        left: 1%;
-        width: 13rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        padding-left: 3rem;
+    top: 31%;
+    left: 1%;
+    width: 13rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 3rem;
     }
     .inputbox input[placeholder=Message]
     {
         position: absolute;
-        top: 63%;
-        left: 1%;
-        width: 16rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        padding-left: 3rem;
+    top: 39%;
+    left: 1%;
+    width: 16rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 3rem;
     }
     .button
     {
         position: absolute;
-        left: 8%;
-        top: 78%;
-        text-align: center;
-        background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-        color: #FFFFFF;
-        padding: 1rem 2.2rem;
-        font-size: 1rem;
-        border-radius: 15px;
-        border: none;
+    left: 8%;
+    top: 51%;
+    text-align: center;
+    background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 1rem 2.2rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    border: none;
     }
     .button:hover{
         background: #E7B542;
@@ -512,7 +509,7 @@ font-size: 2.1rem;
 
 @media(max-width:480px)
 { .forms{
-    height: 36rem;
+    height: 62rem;
     width: 28rem;
     color: rgb(18, 18, 18);
     background: black;
@@ -528,7 +525,7 @@ img
 }
 .forms p{
     position: absolute;
-    top: 5%;
+    top: 18%;
     left: 7%;
     font-size: 2.3rem;
     background: linear-gradient(140.08deg, #A87C2F 0%, #E7B542 85.52%);
@@ -555,7 +552,7 @@ img
 .inputbox input[placeholder=Name]
 {
     position: absolute;
-    top: 29%;
+    top: 36%;
     left: 6%;
     width: 13rem;
     font-family: 'Poppins', sans-serif;
@@ -565,7 +562,7 @@ img
 .inputbox input[placeholder=Email]
 {
     position: absolute;
-    top: 41%;
+    top: 47%;
     left: 6%;
     width: 16rem;
     font-family: 'Poppins', sans-serif;
@@ -575,7 +572,7 @@ img
 .inputbox input[placeholder=Message]
 {
     position: absolute;
-    top: 53%;
+    top: 58%;
     left: 6%;
     width: 19rem;
     font-family: 'Poppins', sans-serif;
@@ -599,6 +596,4 @@ img
 }
 .button:hover{
     background: #E7B542;
-}
-
 }
